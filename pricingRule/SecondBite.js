@@ -1,5 +1,4 @@
 export class SecondBite {
-    constructor(){};
 
     totalPrice (classic, standOut, premium){
         //total price for classic ads

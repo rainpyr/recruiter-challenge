@@ -9,7 +9,7 @@ export class Checkout{
         this.premium = new Premium();
         this.standOut = new StandOut();
         this.pricingRule = pricingRule;
-    };
+    }
 
     add(product){
         switch (product.name){
@@ -23,7 +23,7 @@ export class Checkout{
             this.premium.add();
             break;
             default:
-                console.log('Something went');
+                console.log('Something went wrong');
                 
         }
     }
